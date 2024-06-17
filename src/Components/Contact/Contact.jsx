@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
 import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
@@ -46,10 +46,10 @@ const Contact = () => {
                <p>I`m currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" />  <p>vipulkumaryadav730@gmail.com</p>    
+                        <img src={mail_icon} alt="" />  <p>denishpatel068@gmail.com</p>    
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" />  <p>+91-8303531053</p>
+                        <img src={call_icon} alt="" />  <p>+91-7000562343</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>Shivajinagar, Pune 411005</p>
@@ -63,7 +63,7 @@ const Contact = () => {
                 <input type="email" placeholder='Enter your email' name='email' />
                 <label htmlFor="">Write your message here</label>
                 <textarea name="message" rows={8} placeholder='Enter your message'></textarea>
-                <button type='submit' class="contact-submit">Submit</button>
+                <button type='submit' className="contact-submit">Submit</button>
 
 
                </form>

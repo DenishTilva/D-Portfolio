@@ -37,6 +37,10 @@
     text-decoration: none;
     color: white;
 }
+.anchor-link:hover{
+    color: rgb(240, 136, 127);
+}
+
 .nav-mob-close{
     display: none;
 }
